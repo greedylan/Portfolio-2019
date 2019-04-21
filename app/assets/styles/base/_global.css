@@ -1,3 +1,30 @@
+/****** START _global.css ******/
+
 body{
-  background: pink;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  background: #F9F9F9;
+
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* TYPOGRAPHY */
+h1{
+  font-size: 48px;
+  font-weight: 100;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+/* LAYOUT */
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
