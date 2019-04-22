@@ -365,6 +365,10 @@ a{
   color: #000;
 }
 
+img{
+  width: 100%;
+}
+
 /* TYPOGRAPHY */
 
 h1{
@@ -434,15 +438,64 @@ h1{
 .projects__item{
   width: 100%;
   height: 50vh;
-
-  background: pink;
-  box-shadow: inset 0px 0px 0px 1px #000;
-
   position: relative;
 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.projects__item figcaption{
+/* box-shadow: inset 0px 0px 0px 1px #000; */
+
+.projects__item:first-child{
+    flex: 0 1 100%;
+  }
+
+/* background: pink; */
+
+.projects__item:not(first-child){
+    flex: 0 1 33.33%;
+  }
+
+.project__1{
+  background-image: url('https://via.placeholder.com/1200x400');
+}
+
+.project__2{
+  background-image: url('https://via.placeholder.com/200');
+}
+
+.project__3{
+  background-image: url('https://via.placeholder.com/200');
+}
+
+.project__4{
+  background-image: url('https://via.placeholder.com/200');
+}
+
+.projectImage{
+  position: absolute;
+}
+
+.projectOverlay{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: .1;
+}
+
+.projectOverlay .overlay__scrim{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: rgba(0,0,0,.5);
+    z-index: 100;
+  }
+
+.projectOverlay .overlay__caption{
     width: 60%;
     position: absolute;
     top: 50%;
@@ -452,12 +505,9 @@ h1{
     text-align: center;
 
     background: grey;
+    z-index: 101;
   }
 
-.project__1{
-  flex: 0 1 100%
-}
-
-.project__2, .project__3, .project__4{
-  flex: 0 1 33.33%;
-}
+.projectOverlay--show{
+    opacity: 1;
+  }

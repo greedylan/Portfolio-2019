@@ -5,4 +5,9 @@ function Person(fullName){
   };
 }
 
+
+function showProjectOverlay(){
+  
+}
+
 module.exports = Person;
