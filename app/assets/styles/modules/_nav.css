@@ -8,7 +8,11 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
-  background: #FFFFFF;
+  background: rgba(255,255,255,.975);
+
+  position: fixed;
+  top: 0;
+  z-index: 500;
 }
 
 .navBlock{
@@ -28,12 +32,6 @@
 }
 
 
-.intro{
-  width: 100%;
-}
-
-.intro__text{
-  width: 50%;
-  margin: 1em auto;
-  text-align: center;
+.content{
+  margin-top: 56px;
 }

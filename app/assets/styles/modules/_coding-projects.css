@@ -1,0 +1,35 @@
+.coding-project__item{
+  width: 100%;
+  margin: 4em 0;
+
+  & .multimedia{
+    flex: 0 1 40%;
+  }
+
+  & .text{
+    flex: 0 1 60%;
+    padding: 1em;
+
+  }
+
+  .learn-more{
+    float: right;
+  }
+}
+
+
+.multimedia__wrapper{
+  height: 100%;
+  position: relative;
+
+  & img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1000 ease;
+  }
+
+  & .hidden{
+    opacity: 0;
+  }
+}

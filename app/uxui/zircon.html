@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design Portfolio</title>
+  <link rel="stylesheet" href="/temp/styles/styles.css">
+
+  <!-- Font Used -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,900,900i" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="container">
+
+      <div class="navBlock navBlock__name">
+        <a href="/index.html">dylan hsiao</a>
+      </div>
+
+      <div class="navBlock navBlock__menu">
+          <a href="/index.html">ux ui</a>
+          <a href="/frontend/intro.html">front-end</a>
+          <a href="/resume.html">resume</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="nav-spacer"></section>
+
+  <div class="pagination">
+      <a href="#overview">OVERVIEW</a>
+      <a href="#parameters">4 PARAMETERS</a>
+      <a href="#research">UX RESEARCH</a>
+      <a href="#macro-problem">MACRO PROBLEM</a>
+      <a href="#macro-solution">MACRO SOLUTION</a>
+      <hr>
+      <a href="#finder">PRODUCT FINDER</a>
+      <a href="#categories-filter">CATEGORY & FILTER</a>
+      <a href="#hub">THE HUB</a>
+      <hr>
+      <a href="#process">THE PROCESS</a>
+      <a href="#thoughts">FINAL THOUGHTS</a>
+  </div>
+
+
+
+
+
+  <!-- CONTENT STARTS HERE-->
+  <section class="container">
+
+    <!-- Project Title -->
+    <div class="col-8">
+      <article class="">
+        <h1 class="text--center">Redesign Thought-Leading Platform For Hardware Brand</h1>
+      </article>
+    </div>
+
+    <!-- Sub Title-->
+    <div class="col-12">
+      <article class="">
+        <h2 class="text--center">A mobile-first web redesign, strategically feeds the product info from the comprehensible to the tech-savvy trickle down the clickstream. I led the design of questionnaire-based product finder, optimized feature filters and knowledge hub. With the curated product list and full understanding of product features, consumers now can make purchase decisions confidently.</h2>
+      </article>
+    </div>
+
+    <!-- Overview -->
+    <div class="col-6" id="overview">
+
+      <article>
+        <em>OVERVIEW</em>
+        <p>Zircon designs and manufactures hardware tools, the brand has a big product collection for hand-held device. The company launched a new website since mid 2012 and have been pumping Google ads for publicity. However, the accumulated bounce rate was at a staggering high percentage - almost 80%.</p>
+        <p>As a sole Product Designer, I work seamlessly with the Project Lead and Front-End Developer from inception to shipping product. Together we conducted survey, identified user pain points and make design plans strategically.</p>
+      </article>
+
+    </div>
+
+    <!--  Parameters -->
+    <div>
+
+
+      <div class="col-6" id="parameters">
+        <article>
+          <em>DEFINING 4 PARAMETERS</em>
+          <h3>Foundation of Design Strategies & Conviction</h3>
+          <p>In beginning of the project, I felt compelled to take a deeper look into the business. The reason being that Zircon has a complex product line which involves numerous physical engineering, product features, as well as the marketing initiatives that are already in place.</p>
+          <p>It was crucial to learn about the product and the rationale behind Zircon’s business decisions beforehand, so that as a designer, I can set up the project scope to see how we can maneuver around within the business limitations and find the trade-off for optimal user experience.</p>
+          <p>I first categorizes business insights into 2 quadrants: business goals & constraints. I then brainstormed user needs and listed assumptions for the other 2 quadrants.</p>
+        </article>
+      </div>
+
+      <div class="col-12">
+        <article class="">
+          <img src="/assets/images/ux-project__zircon/02__parameters/4-parameters.png"/>
+        </article>
+      </div>
+
+      <div class="col-6" id="parameters">
+        <article>
+          <p>By diving into business context and cross-reference with my design ideas, I formulated a <bold>design prompt</bold> as follow:</p>
+        </article>
+      </div>
+
+
+      <!-- Design Prompt -->
+      <div class="col-12">
+        <article>
+          <h2 class="text--center">In order to achieve a thought-leading brand (Vision), our work will solve DIYer’s & commercial workers’ (Target Audience) problem of a steep learning curve to identify the tools tailored to their remodeling / construction projects (User Problem). By offering a tool finder and educational panel (Strategy), we will know if the new design works when users make purchase through the referred sales channels (Goal).</h2>
+        </article>
+      </div>
+
+
+    </div>
+
+    <!-- Research -->
+    <div class="col-6" id="research">
+
+      <article>
+        <em>UX RESEARCH</em>
+        <h3>Quantitative & Qualitative</h3>
+        <p>In the early stage, we studied lots of quantitative data in Google Analytics. It helped us to understand the demographics, traffic source, viewing devices, interests and so on. The process built a solid ground for context of use and persona.</p>
+        <p>Because of the high bounce rate, our other research tasks naturally fell on collecting qualitative data to evaluate the accessibility issues on the original site. We internally surveyed a small group of participants, asking them to find then purchase the products, and most importantly, how they feel about the site.</p>
+        <p>We also initiated screen-recording and heatmap in HotJar to obtain a bigger pool of data samples. By looking into the behaviors from who are genuinely interested in the products (the majority of the traffic come from Google Ads), It helped us to accurately determine which parts of the web component users would resort to and further prioritize that list.</p>
+      </article>
+
+    </div>
+
+    <!-- Macro Problem -->
+    <div class="col-6" id="macro-problem">
+
+      <article>
+        <em>THE MACRO PROBLEM</em>
+        <h3>Confusing Browsing Experience</h3>
+        <p>Our research shows that viewers are frustrated finding useful content due to 4 issues as follow:</p>
+
+        <h4>1. Overwhelming Information</h4>
+        <p>The site contains a lot of information that largely caters to business needs (ex: award, global sites, product patents...ext) and does not necessarily reflect viewer’s interests.</p>
+
+        <h4>2. Mixed Visual Hierarchy</h4>
+        <p>Like looking into a kaleidoscope, the site uses cropped product thumbnails, illustrative icons, bold typography, highlighted buttons, filtered photography and so on for various components.</p>
+
+        <h4>3. Redundancy</h4>
+        <p>Taking product categories for example, the list not only nests inside the dropdown menu but also appears at the other page sections and footer. Other aspects such as “About” and “Support”, including their sub-menu links also follow the same redundant pattern</p>
+
+        <h4>4. Ambiguity</h4>
+        <p>Some phrases used for links are not immediately clear in regards to their relevant content. This is especially the case when showing multiple wordings that are closed in semantics, suchs as: ”How-to”, “Support”, “Instructions” and “Tips & Tricks”, the ambiguity here creates tremendous confusions.</p>
+
+        <h4>To Sum up</h4>
+        <p>Given the complex content that tangles navigating experience, it places a heavy toll on working memory which losses a user’s interests. My team unanimously agrees it is why the site holds the staggering high bounce rate.</p>
+      </article>
+
+    </div>
+
+    <!-- Macro Solution-->
+    <div>
+
+      <div class="col-6" id="macro-solution">
+
+        <article>
+          <em>THE MACRO SOLUTION</em>
+          <h3>Reconstruct Information Architecture</h3>
+
+          <h4>Empathizing with 2 target groups</h4>
+          <p>I first devised 2 user paths for ”DIY amateurs” and “construction professionals” relatively. Despite 2 separate user paths, they have the mutual goals of finding desirable tools efficiently. </p>
+        </article>
+
+      </div>
+
+      <div class="col-12">
+        <img src="/assets/images/ux-project__zircon/05__macro-solution/2-user-paths.png"/>
+      </div>
+
+      <div class="col-6">
+        <article>
+
+          <p>The reason being that DIY amateurs have limited knowledge about the products and applications therefore a project-based questionnaire (we will go into its details in later session) that leads to a curated product list would generate optimal conversions.</p>
+          <p>On the other side of the aisle, professionals have higher exposure to various industrial tools; they know what they are looking for, as well as have higher tendency to learn a product’s specifications and features. In that regard, we wanted to preserve the browsing power with filtering function.</p>
+          <p>After examining 2 user paths with intended user scenarios, we realized a defect of restricting a specific path for certain group of people; namely, a DIY amateurs might want to browse through the categories and vice versa. The grouping would be better defined as the viewers who are familiar with the brand or not.</p>
+          <p>However, the process of empathizing with DIY amateurs opens up a way better method of finding product, we decided to prioritize the questionnaire over category browsing since new visitors make up 90+% of overall traffic.</p>
+          <!-- <p>At this point we did consider to employ a separate category-focus landing page for the returning viewers since they might already learned about the site and products, therefore shifting the focus from re-running the questionnaire again. We didn’t proceed with the route due to lacks of supportive data.</p> -->
+
+        </article>
+
+      </div>
+
+      <div class="col-6">
+        <article>
+
+          <h4>Schema: Consolidating Added & Existing Content</h4>
+          <p>I then created a diagram to evaluate the desirability of the existing content/links by referencing the behavior data (clickstream & heatmaps) collected from Google Analytics and HotJar. Following that, I plugged in the questionnaire to the diagram and rearrange the overall hierarchy.</p>
+
+        </article>
+
+      </div>
+
+      <div class="col-12">
+        <img src="/assets/images/ux-project__zircon/05__macro-solution/desirability-diagram--before.png"/>
+      </div>
+      <div class="col-12">
+        <img src="/assets/images/ux-project__zircon/05__macro-solution/desirability-diagram--after.png"/>
+      </div>
+
+      <div class="col-6">
+        <article>
+
+          <h4>Holistic Final Blueprint</h4>
+          <p>To make the design comprehensible to client and my developer, I further constructed a cascading sitemap, spelling out the content, UI components and page transitions. This final blueprint visualizes our project goal: we channel viewers to identify the desired products then provides detailed information within a specific product page.</p>
+
+        </article>
+
+      </div>
+
+      <div class="col-12">
+        <img src="/assets/images/ux-project__zircon/05__macro-solution/sitemap.png"/>
+      </div>
+
+
+    </div>
+
+    <!-- transition Strategy - Design -->
+    <div class="col-12">
+      <article>
+        <h2 class="text--center">With all things considered, I will now walking you through the main design changes manifested in the final blueprint: questionnaire-based product finder, optimized feature filters and consolidated knowledge hub . In each section we will be discussing the problems, solutions and the approach we took. Let’s get into the nitty gritty!</h2>
+      </article>
+    </div>
+
+    <!-- Hero -->
+    <div class="col-6" id="finder">
+
+      <article>
+        <em>PRODUCT FINDER</em>
+        <h3>From Image Carousel to Single Purpose CTA</h3>
+
+        <h4>Problem - Top-Down Information in Distracting Carousel</h4>
+        <p>On the top of landing page, the site uses a carousel and auto-rotating slides that have little to no value to the viewers. It first shows off the award-winning flooding detector, then brags about Zircon’s as a brand and introduces the applications of Zircon’s metal detector.</p>
+        <p>I was very confused when first looking at the carousel, mainly because I did not know about Zircon nor any of the product the brand carries. In order to validate my design intuition that could potentially to be bias, I referenced multiple articles online and eventually concluded the carousel would bring adverse effects for the following reasons: <bold>1. banner blindness 2. low conversion rates 3. poor usability / controllability.</bold></p>
+        <p>I also found the following to be the strongest argument that justifies the need of replacing the original carousel. <bold>" "</bold></p>
+
+        <h4>Solution - Questionnaire Based Product Finder</h4>
+        <p>Hero section is undoubtedly the most crucial part of of the website; it situated within the first fold and serves as the attention grabber. Since we decided to put questionnaire at the highest priority, placing it at the hero section is a perfect fit so the viewers can react immediately after the site is loaded. This is a single purpose “Call to Action” that drives away from all the negative effects of having a carousel.</p>
+
+        <h4>Approach - Affinity Wall & Iterations</h4>
+        <p>Figuring out a structure tree for the questionnaire was relatively challenging. It requires us to brainstorm all the possible use cases (user’s projets) based on the product collections. Through the help of my Design Lead who has knowledge in industrial tools, my team conducted an affinity wall along with a few iterations and eventually came up an ideal structure.</p>
+        <p>This process paved a solid ground for designing the questionnaire on screen: for certain construction/remodeling projects, there will be more than one product category that fits into the curated result. This means we need to devise a robust user flow, giving users the power to freely navigate between screens when asking the subsidiary questions related to a specific category.</p>
+      </article>
+
+    </div>
+
+
+    <!-- Product Categories & Filter -->
+    <div class="col-6" id="categories-filter">
+      <em>CATEGORY & FILTERS</em>
+      <h3>Streamlined Browsing Experience</h3>
+
+      <h4>Problem I: Long Scrolling / Extra Tabs to Reveal Category Collections</h4>
+      <p>When clicking “Tools” in the menu, it links to a “showroom” page that forces viewers to scroll through a long category list regardless of viewing on mobile or desktop.</p>
+      <p>In mobile’s hamburger menu, the categories list are nested inside an accordion structure. The lack of visual hierarchy here also makes the categories hard to find among other menu items.</p>
+
+      <h4>Solution I: Optimized Hamburger & Dropdown Menu</h4>
+      <p>To boost the accessibility, we first removed the link of “showroom” page. To make the category list prominent for desktop, we added the product thumbnails alongside their names while adding a scrim under the dropdown. For mobile, we listed direct links in bold typography inside a reconfigured hamburger menu.</p>
+
+      <h4>Problem II: Confusing Feature Filters & Hitting a Wall</h4>
+      <p>The top-down wording for feature filters does not communicate well with viewers. Some filters inherit the naming of Zircon’s registered trademark (ex: DeepScan® Mode), others use phrases that are vague in meanings or opened to various interpretations (ex: Auto Correcting Technology).</p>
+      <p>Web page also returns a “no tools found” notification after applying a certain combination of filters.</p>
+
+      <h4>Solution II: Streamlined Filter System</h4>
+      <p>Unlike daily objects such as clothing, Zircon’s product collections are very much in their own niches which results in a steep learning curve for the product features. The feature filters need intuitive explanations in high level of organization, which led the following design approaches:</p>
+
+      <p>
+        1. Convert technical jargons into conversational language, same as ambiguous phrases.</br>
+        2. Add a short description under feature title.</br>
+        3. Pairing texts with icons that visualizes the abstract concept.</br>
+        4. Assign features into 3 color-coded groups based on their attributes.</br>
+        5. Block out filters beforehand when no product fits into the filter criteria.</br>
+      </p>
+      <p>With the new design, viewers have more confidence identifying the products that have their desired features.</p>
+    </div>
+
+
+    <!-- The Hub -->
+    <div class="col-6" id="hub">
+      <article class="">
+
+        <em>THE HUB</em>
+        <h3>Sophisticated Education Platform</h3>
+
+        <h4>Problem: Scattered Educational Content</h4>
+        <p>The existing site contains several links to separate blog pages, each blog addresses different educational content. For example, “Tip Minutes” displays an array of product-specific tutorial in videos; “Blog” presents marketing-oriented articles; “Projects” gives real-world construction case studies and so on. It requires users to go through various portals before landing on the desired content by chance.</p>
+
+        <h4>Solution: Fully Informed in One Designated Hub</h4>
+        <p>As part of the business goals, we want viewers to find information autonomously before reaching customer support. Having a centralized platform not only removes the cumbersome experience, it also encourages viewers to explore other topics apart from they were originally interested in.</p>
+
+        <h4>Approach I: Define Blog Categories</h4>
+        <p>My Design Lead strategically consolidated and categorized the existing content into 5 topics that resonate with the interests of our target audience:</p>
+        <p><bold>1. DIY Inspiration:</bold> home improvements and lifestyle oriented articles, backlink to relevant product.</p>
+        <p><bold>2. Professional:</bold> case studies show how Zircon solves professional-level problems.</p>
+        <p><bold>3. Tips & Solutions:</bold> educating product-specific user guidance, special features and troubleshooting.</p>
+        <p><bold>4. Marketing:</bold> business strategies related to products, brand voice and industry knowledge.</p>
+        <p><bold>5. Community:</bold> experiences and insights from existing customers, following a core service theme.</p>
+
+        <h4>Approach II: Evoke Interests</h4>
+        <p>At the top of the the entry page, I designed an “Trending Article” that contains the preview of our main blog content. This dynamic section would publish occasional contents that cater to Zircon’s marketing strategy.</p>
+        <p>The following comes with “Other Topics” that displays a set of blog previews come from all 5 of categories. Notice we embedded categories labels on each blog section. These labels link to another page for viewer to read on other articles inside the same category.</p>
+        <p>We believe that by providing a smorgasbord of articles at the first sight, it would evoke a viewer’s interest therefore explore more blog content down the road. </p>
+        <p>We also believe by achieving the high level of sophistication, it helps to build a reputable image for our client so that it retains more returning viewers.</p>
+
+      </article>
+    </div>
+
+
+    <!-- The Process -->
+    <div class="col-6" id="process">
+      <article class="">
+
+        <em>THE PROCESS</em>
+        <h3>End-to-End Design</h3>
+
+        <h4>Wireframe to Hi-Fi Mockup</h4>
+        <p>After the UX research and setting up the master blueprint, my workflow went from forging concepts in preliminary wireframes to transforming them into hi-fidelity mockups based on an evolving atomic stylesheet.</p>
+
+        <h4>Design Library & Handoff </h4>
+        <p>This atomic stylesheet / design library comes in particularly handy in combination with Invision’s  “Inspect Mode”. I handed off SVG assets and CSS specifications to my developer by syncing the artboards through Craft. Whenever there is a design change in a reusable component, I simply notify my developer so he can go for the updates in this single “source of truth”.</p>
+
+        <h4>Miscellaneous Pages</h4>
+        <p>Besides questionnaire-based tool finder, feature filters and educational hub discussed above, I also designed product page, 3rd-party purchase path, global portal, search result and other miscellaneous pages. I carefully threaded the needle between business goals and user needs and tightened them up into a holistic system.</p>
+
+      </article>
+    </div>
+
+
+    <!-- Final Thoughts -->
+    <div class="col-6" id="thoughts">
+      <article class="">
+
+        <em>FINAL THOUGHTS</em>
+        <h3>The Challenge: Finding The Trade-Off</h3>
+        <p>Because we were designing for a client who is in the hardware business for almost 40 years, there are rigid business policies/practices already in place. While agreeing with “user-first” design, this project is also about innovating around business limitations/expectations to achieve the optimal user experience.</p>
+        <p>Reflecting on the whole process, there are 3 factors that make this complex project successful even though we are only a team of 3.</p>
+
+        <h4>Learnability</h4>
+        <p>Circle back to the blueprint, we deliberately present easy-comprehensible product info during the early stages of the sitemap for browsing purpose. Viewers can only access a product’s advanced product after clicking into a product detail page. Within the product detail page, we give prominent visual weights to video tutorial and features over specifications, Q&A and other miscellaneous materials.</p>
+        <p>Throughout the user journey, we carefully crafted the most intuitive visual components that communicate the functions of the interface. We strived on producing a great learnability for both digital and client’s physical products to eliminate confusion.</p>
+
+        <h4>Thorough & Comprehensive Research</h4>
+        <p>Instead of jumping into ideation right off the bat, we spent a great amount of time studying and collecting  quantitative and qualitative data. The research validated our assumptions and paid off exceptionally when convincing the client to consider changes based on our design strategies.</p>
+        <p>The most noticeable was dropping Zircon’s original category structure that the client insisted on having. After presenting the research explaining why users are confused by grouping products using the abbreviations of 3rd-party sellers’ brand names, the client recognized the unbiased input and soon proceed with our design suggestions.</p>
+
+        <h4>Like-Minded Team</h4>
+        <p>My Project Lead, Developer and myself as a Product Designer all value a great deal about UX and have hands-on web development experience. During the ideation process, we exchanged ideas while checking the technical feasibility for potential solutions. Having a receptive and communicative team truly facilitates forging the best solution not only for the users but also our own development.</p>
+      </article>
+    </div>
+
+
+
+  </section>
+
+  <script src="/temp/script/App.js"></script>
+</body>
+</html>

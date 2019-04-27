@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Design Portfolio</title>
-  <link rel="stylesheet" href="temp/styles/styles.css">
+  <link rel="stylesheet" href="/temp/styles/styles.css">
 
   <!-- Font Used -->
   <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,900" rel="stylesheet">
@@ -16,57 +16,78 @@
     <div class="container">
 
       <div class="navBlock navBlock__name">
-        <a href="#">dylan hsiao</a>
+        <a href="/index.html">dylan hsiao</a>
       </div>
 
       <div class="navBlock navBlock__menu">
-          <a href="#">projects</a>
-          <a href="#">front end</a>
-          <a href="#">resume</a>
+          <a href="/index.html">ux ui</a>
+          <a href="/frontend/intro.html">front-end</a>
+          <a href="/resume.html">resume</a>
       </div>
 
     </div>
   </nav>
 
+  <section class="nav-spacer"></section>
 
-  <section class="intro">
-    <h1 class="intro__text">Hello there! I am a product designer who speaks front-end</h1>
+  <section class="intro container margin-horizontal--large">
+    <h1 class="text--center">Hello there! I am a product designer who also speaks front-end :)</h1>
   </section>
 
-
-  <section class="projects">
+  <section class="projects flex flex--wrap">
 
     <div class="projects__item project__1">
-      <!-- <div class="projectOverlay">
-        <div class="overlay__scrim"></div>
-        <figcaption class="overlay__caption">redesign thought-leading platform for hardware brand</figcaption>
-      </div> -->
+      <a href="/uxui/zircon.html">
+        <div class="project-overlay">
+          <div class="overlay__scrim"></div>
+          <figcaption class="overlay__caption">Redesign thought-leading platform for hardware brand</figcaption>
+        </div>
+      </a>
     </div>
 
     <div class="projects__item project__2">
-      <div class="projectOverlay">
-        <div class="overlay__scrim"></div>
-        <figcaption class="overlay__caption">text placeholder</figcaption>
-      </div>
+      <a href="/uxui/nhoo.html">
+        <div class="project-overlay">
+          <div class="overlay__scrim"></div>
+          <figcaption class="overlay__caption">nhoo</figcaption>
+        </div>
+      </a>
     </div>
 
     <div class="projects__item project__3">
-      <div class="projectOverlay">
-        <div class="overlay__scrim"></div>
-        <figcaption class="overlay__caption">text placeholder</figcaption>
-      </div>
+      <a href="/uxui/leak-alert.html">
+        <div class="project-overlay">
+          <div class="overlay__scrim"></div>
+          <figcaption class="overlay__caption">leak alert</figcaption>
+        </div>
+      </a>
     </div>
 
     <div class="projects__item project__4">
-      <div class="projectOverlay">
-        <div class="overlay__scrim"></div>
-        <figcaption class="overlay__caption">text placeholder</figcaption>
-      </div>
+      <a href="/uxui/job-tracker.html">
+        <div class="project-overlay">
+          <div class="overlay__scrim"></div>
+          <figcaption class="overlay__caption">job tracker</figcaption>
+        </div>
+      </a>
     </div>
 
   </section>
 
+  <section class="container margin-horizontal--large">
+    <h2 class="text--center">Looking for more? See some of my </br><a class="link-blue--large" href="/frontend/intro.html">front-end projects</a></h2>
+  </section>
 
-  <script src="temp/script/App.js"></script>
+
+
+
+
+
+
+
+
+
+
+  <script src="/temp/script/App.js"></script>
 </body>
 </html>

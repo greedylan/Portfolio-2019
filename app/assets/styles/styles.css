@@ -2,4 +2,5 @@
 @import "base/_variables.css";
 @import "base/_global.css";
 @import "modules/_nav.css";
-@import "modules/_projects.css";
+@import "modules/_ux-projects.css";
+@import "modules/_coding-projects.css";
